@@ -10,9 +10,9 @@ Splunk app for Alfresco - Simple monitoring for Alfresco using Splunk
 ## Setup Steps
 
 Installing the Splunk app for Alfresco is fairly straightforward.  Note that this app has a dependency
-on the Splunk JMX app.  Without the JMX app, this app will not function.  Version 2.0.3 or better is required.
+on the "Monitoring of Java Virtual Machines with JMX" app.  Without the JMX app, this app will not function.  Version 2.0.3 or better is required.
 
-* Get the latest (2.0.3 or greater) Splunk JMX plugin here: http://apps.splunk.com/app/668/
+* Get the latest (2.0.3 or greater) "Monitoring of Java Virtual Machines with JMX" app here: http://apps.splunk.com/app/668/
 * Unpack the JMX plugin into $SPLUNK_HOME/etc/apps
 * Unpack the Splunk app for Alfresco into $SPLUNK_HOME/etc/apps
 * Edit $SPLUNK_HOME/etc/apps/alfresco_app/jmxconfig/solr-config.xml and alfresco-config.xml to correctly point to your Alfresco and SOLR JVMs (providing the right JMX credentials
@@ -27,8 +27,8 @@ be required.
 
 ## Acknowledgements
 
-This app would not have been possible without the excellent Splunk JMX plugin by Damien Dallimore.  A HUGE thank you!
+This app would not have been possible without the excellent "Monitoring of Java Virtual Machines with JMX" appn by Damien Dallimore.  A HUGE thank you!
 Big chunks of the Alfresco and SOLR XML configurations and the JVM dashboard components are based on the examples
-found in the JMX app:
+found in the "Monitoring of Java Virtual Machines with JMX" app:
 
 http://apps.splunk.com/app/668/#

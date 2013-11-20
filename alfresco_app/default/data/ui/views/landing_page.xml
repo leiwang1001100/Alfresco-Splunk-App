@@ -7,7 +7,7 @@
 <h2>Setup Steps</h2>
 
 <ul>
-	<li>Get the latest Splunk JMX plugin <a href='http://apps.splunk.com/app/668/'>here</a></li>
+	<li>Get the latest "Monitoring of Java Virtual Machines with JMX" app <a href='http://apps.splunk.com/app/668/'>here</a></li>
 	<li>Unpack the JMX plugin into $SPLUNK_HOME/etc/apps</li>
 	<li>Unpack the Splunk app for Alfresco into $SPLUNK_HOME/etc/apps (already done if you are viewing this page!)</li>
 	<li>Edit $SPLUNK_HOME/etc/apps/alfresco_app/jmxconfig/solr-config.xml and alfresco-config.xml to correctly point to your
