@@ -1,6 +1,6 @@
 ## Alfresco monitoring for Splunk
 
-* Version : 0.1
+* Version : 1.0
 * Date : November 2013
 * Author : Nathan McMinn, nmcminn@gmail.com
 
@@ -25,3 +25,7 @@ be required.
 ## Acknowledgements
 
 This app would not have been possible without the excellent Splunk JMX plugin by Damien Dallimore.  A HUGE thank you!
+Big chunks of the Alfresco and SOLR XML configurations and the JVM dashboard components are based on the examples
+found in the JMX app:
+
+http://apps.splunk.com/app/668/#

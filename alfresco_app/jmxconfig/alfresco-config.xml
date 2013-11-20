@@ -1,6 +1,7 @@
 <jmxpoller>
 	<formatter className="com.dtdsoftware.splunk.formatter.TokenizedMBeanNameQuotesStrippedFormatter" />
 	
+	<!-- Copy this entire jmxserver element for each node in your Alfresco cluster -->
 	<!-- Connect to a JVM via the remote JMX interface -->
 	<jmxserver host="127.0.0.1" jvmDescription="alfresco" jmxport="50500" jmxuser="controlRole" jmxpass="change_asap" lookupPath="/alfresco/jmxrmi">
 		
