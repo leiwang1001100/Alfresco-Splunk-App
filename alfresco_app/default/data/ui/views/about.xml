@@ -1,6 +1,6 @@
 <dashboard>
   <label>About</label>
-  <description>About the Splunk plugin for Alfresco</description>
+  <description>About the Splunk app for Alfresco</description>
   <row>
     <html>
 	<p>

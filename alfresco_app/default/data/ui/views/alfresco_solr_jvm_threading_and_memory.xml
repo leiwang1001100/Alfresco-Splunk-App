@@ -3,7 +3,7 @@
   <label>SOLR Memory &amp; Threads</label>
   <fieldset autoRun="true">
     <input type="dropdown" token="host">
-      <label>Choose Alfresco Server</label>
+      <label>Choose SOLR Server</label>
       <prefix>host="</prefix>
       <suffix>"</suffix>
       <choice value="*">All</choice>
