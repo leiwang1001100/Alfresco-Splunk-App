@@ -19,6 +19,10 @@
 			<attribute name="UserCountNonExpired" outputname="alfrescoUserCountNonExpired"/>
 		</mbean>
 		
+		<!-- Content store stats -->
+		<mbean domain="Alfresco" properties="Name=ContentStore,*" dumpAllAttributes="true">
+		</mbean>
+		
 		<!-- JVM Threading statistics -->
 		<mbean domain="java.lang" properties="type=Threading">
 			<attribute name="TotalStartedThreadCount" outputname="started"/>
